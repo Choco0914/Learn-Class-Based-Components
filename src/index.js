@@ -20,11 +20,13 @@ class App extends React.Component {
   }
 
   render() {
+    const { lat, err } = this.state;
     return (
-      <>
-        <div>Latitude: {this.state.lat}</div>
-        <div>Error: {this.state.err}</div>
-      </>
+      <div>
+        {lat && `Latitude: ${lat}`}
+        {err && `Error: ${err}`}
+        {!lat && !err && `Loading`}
+      </div>
     );
   }
 }
