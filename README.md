@@ -10,3 +10,4 @@
 6. Handling Errors GraceFully [x]
 7. Conditionally Rendering Content [x]
 8. Refactoring Data Loading to Lifecycle Methods [x]
+9. Alternate State Initialization [x]
