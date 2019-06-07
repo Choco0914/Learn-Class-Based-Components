@@ -1,8 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
+const getSseason = lat => {
+  const month = new Date().getMonth();
+  if (month > 2 && month < 9) {
+    return lat > 0 ? "summer" : "winter";
+  } else {
+    return lat > 0 ? "winter" : "summer";
+  }
+};
 
 const SeasonDisplay = props => {
-  console.log(props.lat);
+  const season = getSseason(props.lat);
+
+  console.log(season);
   return <div>Season Display</div>;
 };
 
