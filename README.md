@@ -19,3 +19,4 @@
 15. Adding Some Styling [x]
 16. Showing a Loading Spinner [x]
 17. Specifying Default Props [x]
+18. Avoiding Conditionals in Render [x]

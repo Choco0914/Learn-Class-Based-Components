@@ -19,7 +19,8 @@ class App extends React.Component {
     );
   }
 
-  render() {
+  renderContent() {
+    // helper function
     const { lat, err } = this.state;
     return (
       <>
@@ -28,6 +29,11 @@ class App extends React.Component {
         {!lat && !err && <Spiner message="위치 확인 권한을 허용해주세요" />}
       </>
     );
+  }
+
+  render() {
+    const content = this.renderContent();
+    return <div className="border red">{content}</div>;
   }
 }
 
