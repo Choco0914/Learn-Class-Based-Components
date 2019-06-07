@@ -21,11 +21,11 @@ class App extends React.Component {
   render() {
     const { lat, err } = this.state;
     return (
-      <div>
+      <>
         {lat && <SeasonDisplay lat={lat} />}
-        {err && `Error: ${err}`}
-        {!lat && !err && `Loading`}
-      </div>
+        {err && <div>{`Error: ${err}`}</div>}
+        {!lat && !err && <div>Loading</div>}
+      </>
     );
   }
 }
