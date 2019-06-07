@@ -9,3 +9,4 @@
 5. Updating State Properties [x]
 6. Handling Errors GraceFully [x]
 7. Conditionally Rendering Content [x]
+8. Refactoring Data Loading to Lifecycle Methods [x]
