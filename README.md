@@ -16,4 +16,6 @@
 12. Ternary Expressions in JSX [x]
 13. Showing Icons [x]
 14. Extracting Options to Config Objects [x]
-15. Showing a Loading Spinner [x]
+15. Adding Some Styling [x]
+16. Showing a Loading Spinner [x]
+17. Specifying Default Props [x]
