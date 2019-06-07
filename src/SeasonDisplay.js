@@ -15,11 +15,22 @@ const printText = season => {
     : "Sooo hot I want to Icecream";
 };
 
+const printIcon = season => {
+  return season === "winter" ? "snowflake" : "sun";
+};
+
 const SeasonDisplay = props => {
   const season = getSseason(props.lat);
   const text = printText(season);
+  const icon = printIcon(season);
 
-  return <h1>{text}</h1>;
+  return (
+    <>
+      <i className={`${icon} icon`} />
+      <h1>{text}</h1>
+      <i className={`${icon} icon`} />
+    </>
+  );
 };
 
 export default SeasonDisplay;

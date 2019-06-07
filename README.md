@@ -14,3 +14,4 @@
 10. Passing State as Props [x]
 11. Determining Season [x]
 12. Ternary Expressions in JSX [x]
+13. Showing Icons [x]
