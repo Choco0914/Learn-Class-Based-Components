@@ -13,3 +13,4 @@
 9. Alternate State Initialization [x]
 10. Passing State as Props [x]
 11. Determining Season [x]
+12. Ternary Expressions in JSX [x]
